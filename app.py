@@ -1,7 +1,7 @@
 from model import main as run_model
 import streamlit as st
 
-st.title("Web Search Assistant")
+st.title("Wikipedia Web Search Assistant")
 topic = st.text_input("Enter the topic you want to search about:")
 if st.button("Search"):
     if topic:

@@ -3,8 +3,9 @@ This project uses ChatGroq chat model and perform web search in wikipedia on the
 
 ## Prerequisites
 - Python 3.8+
-- uv package manager
+- uv package manager(pip install uv - To download uv)
 - Groq API key to be added in .env file
+
 
 
 ## Installation of Packages

@@ -9,7 +9,7 @@ def main(topic: str) -> str:
     agent = create_agent(
     model=model,
     tools=[web_search],
-    system_prompt="You are a helpful assistant",
+    system_prompt="You are a helpful assistant who performs web searches to provide accurate information.",
     )
     response = agent.invoke(
     {"messages": [{"role": "user", "content": f"Perform web search and give information about {topic}"}]}

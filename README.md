@@ -12,6 +12,11 @@ Run this command to install the packages/dependencies
 ```bash
 uv sync
 ```
+and Run 
+```bash
+.venv/scripts/activate
+```
+
 ## Run the APP
 ```bash
 streamlit run app.py
